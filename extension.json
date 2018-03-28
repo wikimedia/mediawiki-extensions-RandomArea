@@ -1,0 +1,21 @@
+{
+	"name": "RandomArea",
+	"version": "2.0.0",
+	"author": [
+		"Thomas Stock"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:RandomArea",
+	"description": "Allows for inserting random elements in a page",
+	"license-name": "CC-BY-NC-SA-2.5",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AutoloadClasses": {
+		"RandomAreaHooks": "RandomArea.hooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "RandomAreaHooks::init"
+	},
+	"manifest_version": 2
+}
