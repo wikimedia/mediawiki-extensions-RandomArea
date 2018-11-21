@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Kghbln"
 		]
 	},
-	"randomarea-desc": "Ermöglicht das Einfügen zufälliger Elemente in eine Seite."
+	"randomarea-desc": "Ermöglicht das Einfügen zufälliger Elemente in eine Seite"
 }
