@@ -17,7 +17,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"RandomAreaHooks": "RandomArea.hooks.php"
+		"RandomAreaHooks": "RandomAreaHooks.php"
 	},
 	"Hooks": {
 		"ParserFirstCallInit": "RandomAreaHooks::init"
