@@ -2,7 +2,8 @@
 	"name": "RandomArea",
 	"version": "2.0.0",
 	"author": [
-		"Thomas Stock"
+		"Thomas Stock",
+		"Zoranzoki21"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:RandomArea",
 	"descriptionmsg": "randomarea-desc",
