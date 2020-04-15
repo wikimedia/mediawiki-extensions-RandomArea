@@ -1,11 +1,21 @@
 <?php
 
 class RandomAreaHooks {
+
+	/**
+	 * @param Parser $parser
+	 */
 	public static function init( $parser ) {
 		$parser->setHook( 'randomArea', [ __CLASS__, 'renderRandomArea' ] );
 	}
 
-	static function renderRandomArea( $input, $argv, $parser ) {
+	/**
+	 * @param string $input
+	 * @param bool $argv
+	 * @param Parser $parser
+	 * @return string
+	 */
+	public static function renderRandomArea( $input, $argv, $parser ) {
 		$count = $argv['count'];
 		if ( $count < 0 || !$count ) {
 			$count = 1;
@@ -19,7 +29,7 @@ class RandomAreaHooks {
 				<br />Array out of Bounce - >
 				Only " . $valCount . " items available, count = " . $count );
 		}
-		$valueIndex = array();
+		$valueIndex = [];
 		$randOut = "";
 		$i = 0;
 		while ( $i < $count ) {
