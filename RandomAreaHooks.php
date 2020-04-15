@@ -2,8 +2,7 @@
 
 class RandomAreaHooks {
 	public static function init( $parser ) {
-		$parser->setHook( 'randomArea', [ 'RandomAreaHooks', 'renderRandomArea' ] );
-		return true;
+		$parser->setHook( 'randomArea', [ __CLASS__, 'renderRandomArea' ] );
 	}
 
 	static function renderRandomArea( $input, $argv, $parser ) {
