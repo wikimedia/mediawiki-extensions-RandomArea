@@ -11,7 +11,7 @@ class RandomAreaHooks {
 
 	/**
 	 * @param string $input
-	 * @param bool $argv
+	 * @param string[] $argv
 	 * @param Parser $parser
 	 * @return string
 	 */
